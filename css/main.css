@@ -1,0 +1,207 @@
+
+.firstBlock { 
+
+    padding-left: 45px;
+    padding-bottom: 35px;
+    padding-top: 10px;
+    margin: 2px;
+}
+
+.pinkBlock {
+   background-color: #FFACA8;
+   border-radius: 0px 140px 5px 5px;
+   border: 3px dashed salmon;
+   padding-left: 30px;
+   padding-bottom: 10px;
+   padding-top: 35px;
+   margin: 12px;
+   width: 800px;
+}
+ 
+.mainText{
+   color: #531049;
+   font-size: 22px;
+   
+   font-family: "Jura";
+   line-height: 31px;
+   letter-spacing: 0.5px;
+}
+
+.strongText{
+   font-weight: 900 ;
+   
+}
+
+.regList{
+   list-style:square;
+   line-height: 35px;
+   padding-left: 45px;
+}
+ 
+.menuItem{
+   padding-right: 50px;
+}
+
+.menuItemSelected{
+   padding-right: 50px;
+   font-weight: 600;
+}
+
+#officeImage{
+   width: 600px;
+   padding-top: 30px;
+}
+
+h1{
+   font-family: "Jura Bold";
+   font-weight: 600;
+   font-size: 35px;
+   color: #531049;
+   padding-left: 13px;
+   padding-top: 23px;
+
+}
+
+h2{
+    font-family: Jura Bold;
+    color: #531049;
+    font-weight: 500;
+    font-size: 33px;
+    padding-left: 13px;
+}
+ 
+body{
+    background-color: #FBF4D7;
+}
+ 
+nav{
+    letter-spacing: 2px;
+    line-height: 18px;
+    font-family: cursive;
+}
+
+.topAndBottomBlock{
+   color: #531049;
+   background-color: #FFACA8;
+   background-image: url("../images/fon.png") ;
+   font-size: 18px;
+   font-family: "Jura";
+   font-style: normal;
+   line-height: 22px;
+   text-align: left;
+   margin-top: 10px;
+   margin-left: 50px;
+   margin-bottom: 10px;
+   padding-top: 15px;
+   padding-bottom: 10px;
+   padding-left: 10px;
+   border-radius: 0px 140px 5px 5px;
+   border: 3px dashed salmon;
+   width: 1200px;
+}
+
+.contactsText{
+   font-weight:200;
+   font-size: 20px;
+   letter-spacing: 4px;
+   line-height: 28px;
+   margin-bottom: 10px;
+}
+
+p{
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.table1{
+   border: 2px dashed salmon;
+   padding: 10px;
+   border-collapse: collapse;
+   margin-top: 20px;
+   color: #531049;
+   font-size: 20px;
+   font-weight: 500;
+   font-family:cursive;
+   line-height: 31px;
+   letter-spacing: 0.5px;
+}
+
+thead{
+   background-color: #FFACA8;
+   font-weight: 700;
+
+}
+
+tr:nth-child(2n) {
+	background-color:white;
+}
+
+td{
+   border: 2px dashed salmon;
+   margin: 0;
+   padding: 10px;
+   text-align: center;
+}
+ 
+.bodyHero{
+   background-color: black;
+}
+
+img.imgHero{
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 400px;
+   display: block;
+}
+
+a.aBackHero{
+   color: whitesmoke;
+   font-family: cursive;
+   margin-left: 30px;
+   margin-right: auto;
+   cursor: none;
+   display: block;
+}
+.heroFish{
+   font-size: 320px;
+   color: white;
+   margin-top: 10px;
+}
+
+
+@font-face {
+   font-family: "Alegreya Sans";
+   font-weight: 400;
+   font-style: normal;
+   
+   src: local("Alegreya Sans"),
+   url("../fonts/AlegreyaSans-Regular.woff2"), url("../fonts/AlegreyaSans-Regular.woff");
+}
+@font-face {
+   font-family: "Jura";
+   font-weight: 500;
+   font-style: normal;
+   
+   src: local("Jura"),
+   url("../fonts/Jura-Medium.woff2");
+}
+@font-face {
+   font-family: "Jura Bold";
+   font-weight: 700;
+   font-style: normal;
+   
+   src: local("Jura Bold"),
+   url("../fonts/Jura-Bold.woff2");
+}
+
+.hero{
+   display: flex;
+    flex-direction: row;
+    
+    align-items: center;
+    
+    
+    
+    width: 100%;
+    height: 100vh;
+}

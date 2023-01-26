@@ -2,24 +2,31 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Карта Героя</title>
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/main.css">
+    <link type="image/x-icon" href="./images/favicon.png" rel="shortcut icon">
+    <link type="Image/x-icon" href="./images/favicon.png" rel="icon">
+    <script src="https://kit.fontawesome.com/371146fef0.js" crossorigin="anonymous"></script>
 </head>
 
-<body class="hero-body">
+<body class="bodyHero">
     <main>
-        <p>
+        <section>
+            <div class="hero">
 
         <script language="JavaScript">
-            document.write ('<img src="./images/karta'+Math.floor(Math.random()*5)+'.jpg" border="0" class="hero-img">');
+            document.write ('<img src="./images/karta'+Math.floor(Math.random()*5)+'.jpg" border="0">');
         </script>
+    </div>
+    <div>
+    <i class="fa-solid fa-fish heroFish"></i>
 
-        <a href="index.html" class="whitea" onclick="textMsg('Так не пойдет малыш. Сначала нужно запалтить')">Хочу назад <--</a>
-            <!--<img src="/images/karta1.jpg" class="hero-img">-->
-    </p>
+
+        <a href="#" class="aBackHero" onclick="history.back();">Хочу назад <--</a>
+    </div>
+    </div>
     </main>
 </body>
 </html>
